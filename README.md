@@ -173,7 +173,7 @@ curl -X POST http://localhost:9000/api/v1/cart/addToCart -H "Content-Type: appli
 
 ### Apply Discount Coupon
 ```sh
-curl -X POST http://localhost:5000/api/v1/coupon/applyDiscount -H "Content-Type: application/json" -d '{
+curl -X POST http://localhost:9000/api/v1/coupon/applyDiscount -H "Content-Type: application/json" -d '{
   "cartValue": 500,
   "discountId": "3"
 }'
