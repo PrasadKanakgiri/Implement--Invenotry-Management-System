@@ -51,7 +51,7 @@ Make sure the server is running. Use an API client like Postman or `curl` to int
 ### Product Endpoints
 
 - **Add Item to Inventory**
-  - **URL:** `/api/v1/products/addItem`
+  - **URL:** `/api/v1/product/addItem`
   - **Method:** `POST`
   - **Body:**
     ```json
@@ -64,7 +64,7 @@ Make sure the server is running. Use an API client like Postman or `curl` to int
     ```
 
 - **Remove Item from Inventory**
-  - **URL:** `/api/v1/products/removeItem`
+  - **URL:** `/api/v1/product/removeItem`
   - **Method:** `DELETE`
   - **Body:**
     ```json
